@@ -44,21 +44,30 @@ form {
 
 .input-container {
     background-color: var(--container-bakcground);
-    border: solid 1px black;
-}
-
-p {
-    margin: 0;
-    padding: 0;
+    padding: 25px;
+    box-shadow: 5px 5px 5px gray;
 }
 
 ul {
     list-style: none;
     columns: 2;
-    width: 800px;
 }
 
 label, input {
     display: flex;
     flex-direction: column;
+}
+
+p, button {
+    margin: 25px;
+}
+
+button {
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+
+    font-size: var(--base-text-size);
 }
