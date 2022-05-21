@@ -27,7 +27,7 @@ body {
     position: relative;
     top: 200px;
 
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .5);
     padding: 5px 80px;
 }
 
@@ -64,6 +64,7 @@ form {
 ul {
     list-style: none;
     columns: 2;
+    width: 600px;
 }
 
 label, input {
