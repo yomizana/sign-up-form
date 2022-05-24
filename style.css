@@ -8,7 +8,7 @@ body {
     display: flex;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--body-background);
     font-size: var(--base-text-size);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
