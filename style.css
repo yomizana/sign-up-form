@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Norse';
+    src: url(./assets/Norse-Bold.otf) format("opentype");
+}
+
 :root {
     --body-background: #f0f0f0;
     --container-bakcground: white;
@@ -18,7 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url(./assets/halie-west-25xggax4bSA-unsplash.jpg);
+    background-image: url(./assets/waters.jpg);
     background-size: cover;
     width: max(700px, 30%);
 }
@@ -41,6 +46,10 @@ body {
 
 .side-content > img {
     width: 100px;
+}
+
+.side-content > h1 {
+    font-family: 'Norse', serif;
 }
 
 h1 {
