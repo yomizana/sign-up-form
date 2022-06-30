@@ -127,7 +127,17 @@ input + span {
     position: relative;
 }
 
-input:required + span::before {
+input:required + span.match::before {
+    width: 160px;
+    position: absolute;
+    top: 32px;
+    right: 90px;
+    content: "✓";
+    color: green;
+    font-size: 1.2rem;
+}
+
+input:required + span.mismatch::before {
     width: 160px;
     position: absolute;
     top: 32px;
@@ -212,7 +222,14 @@ button:active {
         margin-bottom: 30px;
     }
 
-    input:required + span::before {
+    input:required + span.match::before {
+        width: 180px;
+        top: 62px;
+        right: -184px;
+        font-size: 1.2rem;
+    }
+
+    input:required + span.mismatch::before {
         width: 180px;
         top: 62px;
         right: -184px;
