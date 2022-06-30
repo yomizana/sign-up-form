@@ -32,6 +32,11 @@ body {
 .side-panel > p {
     align-self: center;
     color: white;
+    font-size: .9rem;
+}
+
+.side-panel > p > a {
+    color: white;
 }
 
 .side-content {
