@@ -144,7 +144,7 @@ p, button {
 }
 
 button {
-    background-color: teal;
+    background-color: rgb(59, 163, 133);
     color: white;
     padding: 10px 25px;
     border: none;
@@ -152,6 +152,14 @@ button {
     box-shadow: 3px 3px 3px gray;
 
     font-size: var(--base-text-size);
+}
+
+button:hover {
+    background-color: rgb(37, 112, 91);
+}
+
+button:active {
+    box-shadow: 0px 0px 0px gray;
 }
 
 @media only screen and (max-width: 600px) {
