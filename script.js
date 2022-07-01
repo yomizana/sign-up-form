@@ -9,11 +9,18 @@ function handleChange() {
     const firstPwd = password.value;
     const secondPwd = confirmPassword.value;
 
-    if (firstPwd !== secondPwd) {
+    if (firstPwd === "" && secondPwd === "") {
+        password.classList.add("error");
+        confirmPassword.classList.add("error");
+        span.classList.remove("match");
+        span.classList.remove("mismatch");
+
+    } else if (firstPwd !== secondPwd) {
         span.classList.remove("match");
         span.classList.add("mismatch");
         password.classList.add("error");
         confirmPassword.classList.add("error");
+
     } else {
         span.classList.remove("mismatch");
         span.classList.add("match");
