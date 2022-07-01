@@ -6,7 +6,7 @@
 :root {
     --body-background: #f0f0f0;
     --container-background: white;
-    --side-panel-background: url(./assets/waters.jpg);
+    --side-panel-background: url(./assets/woods.jpg);
     --base-text-size: 1.3rem;
 }
 
@@ -47,7 +47,7 @@ body {
     top: 200px;
 
     background-color: rgba(0, 0, 0, .5);
-    padding: 5px 80px;
+    padding: 10px 80px;
 }
 
 .side-content > img {
@@ -75,6 +75,10 @@ form {
 .info-container {
     margin-top: 100px;
     margin-bottom: 25px;
+}
+
+.info-container > p {
+    font-weight: bold;
 }
 
 .input-container {
@@ -154,7 +158,7 @@ p, button {
 }
 
 button {
-    background-color: rgb(59, 163, 133);
+    background-color: rgb(39, 115, 93);
     color: white;
     padding: 10px 25px;
     border: none;
@@ -165,7 +169,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(37, 112, 91);
+    background-color: rgb(45, 126, 103);
 }
 
 button:active {
